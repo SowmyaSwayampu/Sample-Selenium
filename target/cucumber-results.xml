@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="36.519469">
+<testcase classname="Google Search" name="searching selenium on google" time="12.973994">
+<system-out><![CDATA[Given user enter to the google home page....................................passed
+When user enter the keyword "selenium" in the search textbox................passed
+And user clicks on search button............................................passed
+Then user should see the page title as "selenium - Google Search"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="google searcg with multiple keywords" time="11.759966">
+<system-out><![CDATA[Given user enter to the google home page....................................passed
+When user enter the "Selenium" in the search textbox........................passed
+And user clicks on search button............................................passed
+Then user should see the expected page title "Selenium - Google Search".....passed
+]]></system-out>
+</testcase>
+<testcase classname="Google Search" name="google searcg with multiple keywords 2" time="11.785509">
+<system-out><![CDATA[Given user enter to the google home page....................................passed
+When user enter the "Selenium WebDriver" in the search textbox..............passed
+And user clicks on search button............................................passed
+Then user should see the expected page title "Selenium WebDriver - Google Search".passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4524890230,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "searching selenium on google",
+        "description": "",
+        "id": "google-search;searching-selenium-on-google",
+        "after": [
+          {
+            "result": {
+              "duration": 257497007,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1270170442,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter to the google home page",
+            "match": {
+              "location": "GoogleSearch.user_enter_to_the_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99608171,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the keyword \"selenium\" in the search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 24
+                }
+              ],
+              "location": "GoogleSearch.user_enter_the_keyword_in_the_search_textbox(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6812334710,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "GoogleSearch.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9493175,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see the page title as \"selenium - Google Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium - Google Search",
+                  "offset": 35
+                }
+              ],
+              "location": "GoogleSearch.user_should_see_the_page_title_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3787952956,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "google searcg with multiple keywords",
+        "description": "",
+        "id": "google-search;google-searcg-with-multiple-keywords;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 238155217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1129253452,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter to the google home page",
+            "match": {
+              "location": "GoogleSearch.user_enter_to_the_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70740060,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter the \"Selenium\" in the search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSearch.user_enter_the_in_the_search_textbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6504300878,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "GoogleSearch.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29563826,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see the expected page title \"Selenium - Google Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium - Google Search",
+                  "offset": 41
+                }
+              ],
+              "location": "GoogleSearch.user_should_see_the_expected_page_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3802217401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "google searcg with multiple keywords",
+        "description": "",
+        "id": "google-search;google-searcg-with-multiple-keywords;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 242080206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1119097707,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter to the google home page",
+            "match": {
+              "location": "GoogleSearch.user_enter_to_the_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112162774,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter the \"Selenium WebDriver\" in the search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium WebDriver",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSearch.user_enter_the_in_the_search_textbox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6494681819,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "GoogleSearch.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15268702,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see the expected page title \"Selenium WebDriver - Google Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium WebDriver - Google Search",
+                  "offset": 41
+                }
+              ],
+              "location": "GoogleSearch.user_should_see_the_expected_page_title(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "GmailLogin.feature"
+  }
+]
