@@ -26,7 +26,7 @@ public void Setup()
 		browser = System.getenv("BROWSER");
 		if(browser == null)
 		{
-			browser = "firefox";
+			browser = "chrome";
 		}
 	}
 	switch(browser)
